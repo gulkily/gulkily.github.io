@@ -1,39 +1,39 @@
-body {
-  font-family: Arial, sans-serif;  /* Set a nice font */
-  margin: 2rem;  /* Add some margin around the content */
-}
+    body {
+      font-family: Arial, sans-serif;  /* Set a nice font */
+      margin: 2rem;  /* Add some margin around the content */
+    }
 
-header {
-  text-align: center;  /* Center the header text */
-}
+    header {
+      text-align: center;  /* Center the header text */
+    }
 
-h1 {
-  font-size: 2rem;  /* Increase the font size of the title */
-  margin-bottom: 1rem;  /* Add some space below the title */
-}
+    h1 {
+      font-size: 2em;  /* Increase heading size */
+      margin-bottom: 1rem;  /* Add space after heading */
+    }
 
-h2 {
-  margin-top: 2rem;  /* Add space between sections */
-}
+    h2 {
+      margin-top: 1.5rem;  /* Add space before sections */
+    }
 
-ul {
-  list-style: none;  /* Remove default bullet points */
-  padding: 0;  /* Remove default padding */
-}
+    ul {
+      list-style: none;  /* Remove default bullet points */
+      padding: 0;  /* Remove default padding */
+    }
 
-li {
-  display: inline-block;  /* Display list items inline */
-  margin-right: 1rem;  /* Add space between list items */
-}
+    li {
+      display: inline-block;  /* Display list items inline */
+      margin-right: 1rem;  /* Add space between list items */
+    }
 
-a {
-  color: #0000ff;  /* Set link color to black */
-}
+    a {  /* Style all links */
+      color: #0095ff;  /* Set a blue color for links */
+    }
 
-a:hover {  /* Style for links on hover */
-  color: #333;  /* Change link color on hover */
-}
+    a:hover {  /* Style links on hover */
+      color: #333;  /* Change color on hover */
+    }
 
-.you-are-here {  /* Style for the "you are here" link */
-  font-weight: bold;  /* Make the text bold */
-}
+    .current {  /* Style the "You are here" link */
+      font-weight: bold;  /* Make it bold */
+    }
