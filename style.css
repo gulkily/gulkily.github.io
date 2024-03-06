@@ -27,8 +27,7 @@ li {
 }
 
 a {
-  text-decoration: none;  /* Remove underline from links */
-  color: #000;  /* Set link color to black */
+  color: #0000ff;  /* Set link color to black */
 }
 
 a:hover {  /* Style for links on hover */
