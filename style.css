@@ -1,4 +1,7 @@
-    body {
+h1 {
+        color: blue;
+}
+body {
       font-family: Arial, sans-serif;  /* Set a nice font */
       margin: 2rem;  /* Add some margin around the content */
     }
