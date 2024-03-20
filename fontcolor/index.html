@@ -1,1 +1,61 @@
 
+
+<html>
+<head>
+  <title>PHP Test</title>
+  <script src="utility.js"></script>
+</head>
+<body>
+
+<div id=HistoryList>
+    <br>
+</div>
+
+<form action="/" method="GET">
+  font size:
+  <input type=text id=size size=5 value="" name="size">
+
+  <select id=unit name=unit>
+ <option value=px>px</option>
+ <option value=in>in</option>
+ <option value=cm>cm</option>
+ <option value=pt>pt</option>
+ <option value=pc>pc</option>
+ <option value=mm>mm</option>
+    <!-- exercise 6 -->
+  </select>
+  
+  <br>
+  
+  font color:
+  <select id=color name=color>
+    <option style="background-color: purple" value=purple>purple</option>
+    <option style="background-color: orange" value=orange>orange</option>
+    <option style="background-color: green" value=green>green</option>
+    <option style="background-color: blue" value=blue>blue</option>
+    <option style="background-color: red" value=red>red</option>
+    <option style="background-color: yellow" value=yellow>yellow</option>
+    <option style="background-color: silver" value=silver>silver</option>
+    <option style="background-color: gold" value=gold>gold</option>
+  </select>
+
+  <br>
+  background color:
+  <select id=background name=background>
+      <option style="background-color: purple" value=purple>purple</option>
+    <option style="background-color: orange" value=orange>orange</option>
+    <option style="background-color: green" value=green>green</option>
+    <option style="background-color: blue" value=blue>blue</option>
+    <option style="background-color: red" value=red>red</option>
+    <option style="background-color: yellow" value=yellow>yellow</option>
+    <option style="background-color: silver" value=silver>silver</option>
+    <option style="background-color: gold" value=gold>gold</option>
+  </select>
+
+  <br>
+  <input id=submit type=submit onclick="SaveSetting()">
+</form>
+    
+
+  </body>
+</html>
