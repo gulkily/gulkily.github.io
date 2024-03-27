@@ -13,6 +13,8 @@ function SaveSetting() {
 
     // Update preview
     UpdatePreview(fontSize, unit, fontColor, backgroundColor);
+
+    return 0; // 0 is false
 }
 
 // Function to update preview
