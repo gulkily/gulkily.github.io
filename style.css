@@ -1,42 +1,66 @@
-h1 {
-        color: blue;
-}
 body {
-      font-family: Arial, sans-serif;  /* Set a nice font */
-      margin: 2rem;  /* Add some margin around the content */
-    }
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background-color: #f5f5f5; /* Light gray background */
+}
 
-    header {
-      text-align: center;  /* Center the header text */
-    }
+header {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333; /* Dark header background */
+  color: #fff; /* White text for header */
+}
 
-    h1 {
-      font-size: 2em;  /* Increase heading size */
-      margin-bottom: 1rem;  /* Add space after heading */
-    }
+h1 {
+  font-size: 2em;
+  margin-bottom: 1rem;
+}
 
-    h2 {
-      margin-top: 1.5rem;  /* Add space before sections */
-    }
+h2 {
+  margin-top: 1.5rem;
+  border-bottom: 1px solid #ddd; /* Add a dividing line below sections */
+  padding-bottom: 0.5rem;
+}
 
-    ul {
-      list-style: none;  /* Remove default bullet points */
-      padding: 0;  /* Remove default padding */
-    }
+nav {
+  background-color: #eee; /* Light gray background for navigation bar */
+  padding: 1rem;
+}
 
-    li {
-      display: inline-block;  /* Display list items inline */
-      margin-right: 1rem;  /* Add space between list items */
-    }
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove default margins */
+}
 
-    a {  /* Style all links */
-      color: #0095ff;  /* Set a blue color for links */
-    }
+nav li {
+  display: inline-block;
+  margin-right: 1rem;
+}
 
-    a:hover {  /* Style links on hover */
-      color: #333;  /* Change color on hover */
-    }
+a {
+  color: #0095ff;
+  text-decoration: none; /* Remove underline from links */
+}
 
-    .current {  /* Style the "You are here" link */
-      font-weight: bold;  /* Make it bold */
-    }
+a:hover {
+  color: #333;
+}
+
+.current {
+  font-weight: bold;
+}
+
+/* Hero Section Styles (Assuming you have an element with id="hero") */
+#hero {
+  height: 200px; /* Adjust height as needed */
+  background-image: url("path/to/your/image.jpg"); /* Replace with your image path */
+  background-size: cover; /* Ensure image fills the container */
+  background-position: center; /* Center the image */
+  color: #fff; /* White text for hero section */
+  display: flex; /* Allow for vertical centering of content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+/* Add additional styles for animations or microinteractions as needed */
