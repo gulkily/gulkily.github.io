@@ -1,7 +1,7 @@
 // Get a reference to the container for the links
 const linkContainer = document.getElementById('linkContainer');
 
-// Sample links 
+// Links 
 const commonLinks = [
     { text: "Dima's Page", url: "https://sirni4ek.github.io/" },
     { text: "Danya's Page", url: "https://danil357345.github.io/" },

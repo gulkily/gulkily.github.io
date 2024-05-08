@@ -1,50 +1,60 @@
+/* Set a modern, readable font and improve spacing */
 body {
-  font-family: 'Open Sans', sans-serif; /* Set a modern, readable font */
-  margin: 2rem;
-  background-color: #f5f5f5; /* Add a light background color */
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Slightly lighter background */
+  color: #333; /* Default text color */
 }
 
+/* Style the header */
 header {
   text-align: center;
-  padding: 1rem 0; /* Add some padding above and below the header */
-  background-color: #333; /* Add a dark background for the header */
-  color: #fff; /* Set white text color for the header */
+  padding: 1.5rem 0;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
+/* Style the main heading */
 h1 {
-  font-size: 2em;
-  margin-bottom: 1rem;
+  font-size: 2.5em; /* Slightly larger font size */
+  margin: 0; /* Remove default margin */
 }
 
+/* Style subheadings */
 h2 {
   margin-top: 1.5rem;
-  color: #333; /* Set a darker heading color */
+  color: #555; /* Darker color for subheadings */
 }
 
+/* Style the navigation bar */
 nav {
-  background-color: #eee; /* Add a light background for the navigation bar */
-  padding: 1rem;
+  background-color: #fff; /* White background for navigation */
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee; /* Add a subtle border */
 }
 
+/* Style navigation links */
 nav ul {
   list-style: none;
   padding: 0;
-  margin: 0; /* Remove default margins */
-  text-align: center; /* Center the navigation links */
+  margin: 0;
+  text-align: center;
 }
 
 nav li {
   display: inline-block;
-  margin-right: 1rem;
+  margin-right: 1.5rem; /* Increase spacing between links */
 }
 
+/* Style links */
 a {
   color: #333;
-  text-decoration: none; /* Remove underline from links */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Add smooth transition */
 }
 
 a:hover {
-  color: #0095ff;
+  color: #007bff; /* Change color on hover */
 }
-
-
