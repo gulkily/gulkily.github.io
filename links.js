@@ -6,7 +6,8 @@ const commonLinks = [
     { text: "Dima's Page", url: "https://sirni4ek.github.io/" },
     { text: "Danya's Page", url: "https://danil357345.github.io/" },
     { text: "Solomiia's Page", url: "https://solomiia2098.github.io/" },
-    { text: "Ilya's Page", url: "https://gulkily.github.io/" }
+    { text: "Ilya's Page", url: "https://gulkily.github.io/" },
+    { text: "Source Code", url: "https://github.com/gulkily/gulkily.github.io" }
 ];
 
 // Function to create links
