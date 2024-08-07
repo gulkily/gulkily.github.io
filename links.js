@@ -25,4 +25,6 @@ commonLinks.forEach(linkData => {
 
     // Add a space for readability
     linkContainer.appendChild(document.createTextNode(' '));
+
+    linkContainer.appendChild(document.createElement('br'));
 });
