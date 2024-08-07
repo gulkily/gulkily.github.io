@@ -52,9 +52,25 @@ nav li {
 a {
   color: #333;
   text-decoration: none;
-  transition: color 0.3s ease; /* Add smooth transition */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Add smooth transition */
+  padding: 0.2rem 0.5rem; /* Add padding */
+  border-radius: 4px; /* Add rounded corners */
 }
 
 a:hover {
   color: #007bff; /* Change color on hover */
+  background-color: #f0f0f0; /* Add background color on hover */
+}
+
+/* Style the link container */
+#linkContainer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Style the links inside the container */
+#linkContainer a {
+  display: inline-block;
+  margin: 0.5rem 1rem; /* Add space around each link */
+  font-size: 1.1rem; /* Slightly larger font size */
 }
