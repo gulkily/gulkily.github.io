@@ -1,41 +1,42 @@
-/* Set a modern, readable font and improve spacing */
+/* Use a modern font with good readability */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f7f6; /* Softer background */
+  color: #333;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9; /* Slightly lighter background */
-  color: #333; /* Default text color */
 }
 
 /* Style the header */
 header {
   text-align: center;
-  padding: 1.5rem 0;
-  background-color: #333;
-  color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  padding: 2rem 0;
+  background-color: #004d99;
+  color: white;
 }
 
-/* Style the main heading */
 h1 {
-  font-size: 2.5em; /* Slightly larger font size */
-  margin: 0; /* Remove default margin */
+  font-family: 'Merriweather', serif;
+  font-size: 3em;
+  margin: 0;
 }
 
 /* Style subheadings */
 h2 {
-  margin-top: 1.5rem;
-  color: #555; /* Darker color for subheadings */
+  font-family: 'Merriweather', serif;
+  color: #444;
+  margin-top: 1.8rem;
 }
 
-/* Style the navigation bar */
+/* Navigation styles */
 nav {
-  background-color: #fff; /* White background for navigation */
+  background-color: #fff;
   padding: 1rem 0;
-  border-bottom: 1px solid #eee; /* Add a subtle border */
+  border-bottom: 1px solid #e5e5e5;
 }
 
-/* Style navigation links */
 nav ul {
   list-style: none;
   padding: 0;
@@ -44,33 +45,144 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;
-  margin-right: 1.5rem; /* Increase spacing between links */
+  display: inline;
+  margin-right: 2rem;
 }
 
-/* Style links */
-a {
-  color: #333;
+nav a {
+  font-family: 'Roboto', sans-serif;
+  color: #004d99;
   text-decoration: none;
-  transition: color 0.3s ease, background-color 0.3s ease; /* Add smooth transition */
-  padding: 0.2rem 0.5rem; /* Add padding */
-  border-radius: 4px; /* Add rounded corners */
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 6px;
 }
 
-a:hover {
-  color: #007bff; /* Change color on hover */
-  background-color: #f0f0f0; /* Add background color on hover */
+nav a:hover {
+  color: white;
+  background-color: #004d99;
 }
 
-/* Style the link container */
+/* Section styles */
+section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+section img {
+  border-radius: 50%;
+  display: block;
+  max-width: 150px;
+  margin: 1rem auto;
+}
+
+/* Project list */
+#projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+#projects li {
+  background-color: #e8f0fe;
+  margin: 0.8rem 0;
+  padding: 1rem;
+  border-left: 4px solid #004d99;
+  border-radius: 6px;
+}
+
+#projects a {
+  color: #004d99;
+  text-decoration: none;
+}
+
+#projects a:hover {
+  text-decoration: underline;
+}
+
+/* Skill list */
+.skills-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: #f1f1f1;
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+}
+
+/* Contact section */
+#contact p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+#contact a {
+  color: #004d99;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: white;
+  background-color: #004d99;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+/* Link container */
 #linkContainer {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
-/* Style the links inside the container */
 #linkContainer a {
   display: inline-block;
-  margin: 0.5rem 1rem; /* Add space around each link */
-  font-size: 1.1rem; /* Slightly larger font size */
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  background-color: #f1f1f1;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#linkContainer a:hover {
+  background-color: #004d99;
+  color: white;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #004d99;
+  color: white;
+  margin-top: 3rem;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  nav li {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #linkContainer a {
+    font-size: 1rem;
+  }
 }
