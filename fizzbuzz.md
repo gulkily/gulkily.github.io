@@ -2,17 +2,6 @@
 layout: default
 title: FizzBuzz Examples
 ---
-<!DOCTYPE html>
-<html>
-<head>
-  <title>fizzbuzz</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>fizzbuzz</h1>
-  </header>
-  <main>
     <h2>fizzbuzz</h2>
     <p><a href="https://github.com/gulkily/gulkily.github.io/tree/main/fizzbuzz">fizzbuzz code</a></p>
     <ul>
@@ -28,8 +17,3 @@ title: FizzBuzz Examples
       <li><a href="https://github.com/gulkily/gulkily.github.io/tree/main/fizzbuzz/fizzbuzz.ts">fizzbuzz.ts</a></li>
     </ul>
   </main>
-  <footer>
-    <a href="https://github.com/gulkily/gulkily.github.io">source code</a>
-  </footer>
-</body>
-</html>
