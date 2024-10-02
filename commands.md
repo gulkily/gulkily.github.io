@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>fizzbuzz</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>fizzbuzz</h1>
-  </header>
+---
+layout: default
+title: Commands
+---
   <main>
     <h2>cd</h2>
     <p>
@@ -117,8 +111,3 @@
 
     
   </main>
-  <footer>
-    <a href="https://github.com/gulkily/gulkily.github.io">source code</a>
-  </footer>
-</body>
-</html>
