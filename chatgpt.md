@@ -2,27 +2,6 @@
 layout: default
 title: ChatGPT Page
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ilya's Love for ChatGPT</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Ilya's Love for ChatGPT</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="#why-love">Why I Love ChatGPT</a></li>
-      <li><a href="#how-helpful">How It Helps Me</a></li>
-      <li><a href="#features">Favorite Features</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
   <main>
     <section id="why-love">
       <h2>Why I Love ChatGPT</h2>
@@ -62,9 +41,3 @@ title: ChatGPT Page
 
     <div id="linkContainer"></div>
   </main>
-  <footer>
-    <p>&copy; Ilya</p>
-  </footer>
-  <script src="links.js"></script>
-</body>
-</html>
