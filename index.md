@@ -15,7 +15,7 @@ title: Ilya's Programming Playground
   <ul>
     <li>
       <h3>Fizzbuzz Challenge (Multiple Languages)</h3>
-      <p>A classic coding challenge implemented in various programming languages. See the code on Github: <a href="https://github.com/gulkily/gulkily.github.io/tree/main/fizzbuzz">here</a>.</p>
+      <p>A classic coding challenge implemented in various programming languages. See the code: <a href="/fizzbuzz.html">here</a>.</p>
     </li>
     <li>
       <h3>LeetCode Practice</h3>
